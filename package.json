@@ -1,0 +1,35 @@
+{
+  "name": "pebble-app-dpc-alert",
+  "version": "0.1.0",
+  "author": "Marco Dodaro",
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "DPC Alert",
+    "uuid": "PUT-AN-UUID-HERE-1234-5678-90AB-CDEF12345678",
+    "sdkVersion": "4",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "CONFIG_REGION",
+      "CONFIG_SEVERITY_MIN",
+      "ALERT_TITLE",
+      "ALERT_LEVEL",
+      "ALERT_DESCRIPTION",
+      "ALERT_START",
+      "ALERT_END"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
